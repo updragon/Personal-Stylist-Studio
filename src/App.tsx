@@ -82,8 +82,8 @@ function App() {
             <strong>시작하세요</strong>
           </h1>
           <p className="lead">
-            사진과 키, 몸무게를 입력하면 빠르게 스타일 추천을 위한 기본 정보를
-            준비할 수 있습니다.
+            사진과 키, 몸무게를 입력하면<br />
+            <strong>스타일을 추천합니다</strong>
           </p>
         </div>
         <div className="card">
@@ -101,8 +101,8 @@ function App() {
                   <img src={photoPreview} alt="Uploaded preview" />
                 ) : (
                   <div className="drop-hint">
-                    <strong>사진을 드래그하거나 클릭해 추가하세요</strong>
-                    <span>jpg, png 형식의 이미지를 지원합니다.</span>
+                    <strong>사진을 드래그하거나 클릭</strong>
+                    <span>jpg, png 형식 이미지 가능</span>
                   </div>
                 )}
               </div>
