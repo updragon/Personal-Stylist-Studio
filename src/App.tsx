@@ -77,7 +77,10 @@ function App() {
       <section className="hero-panel">
         <div className="hero-copy">
           <p className="eyebrow">Personal Stylist</p>
-          <h1>나만의 스타일 분석을 시작하세요</h1>
+          <h1>
+            나만의 스타일 분석을<br />
+            <strong>시작하세요</strong>
+          </h1>
           <p className="lead">
             사진과 키, 몸무게를 입력하면 빠르게 스타일 추천을 위한 기본 정보를
             준비할 수 있습니다.

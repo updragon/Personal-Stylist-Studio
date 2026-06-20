@@ -31,9 +31,15 @@
 
 h1 {
   margin: 0 0 18px;
-  line-height: 1.04;
+  line-height: 1.3;
   color: #ffffff;
   font-size: clamp(2.4rem, 3.2vw, 3.4rem);
+  text-align: center;
+}
+
+h1 strong {
+  color: var(--accent);
+  font-weight: 900;
 }
 
 .lead {
