@@ -20,7 +20,7 @@
   display: inline-flex;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(86, 176, 255, 0.14);
+  background: rgba(255, 0, 110, 0.14);
   color: var(--accent);
   font-size: 0.95rem;
   font-weight: 800;
@@ -45,11 +45,11 @@ h1 {
 }
 
 .card {
-  background: rgba(7, 18, 52, 0.96);
-  border: 1px solid rgba(86, 176, 255, 0.32);
+  background: rgba(20, 10, 40, 0.96);
+  border: 1px solid rgba(255, 0, 110, 0.32);
   border-radius: 28px;
   padding: 32px;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 20px 80px rgba(255, 0, 110, 0.15);
 }
 
 .input-form {
@@ -61,11 +61,11 @@ h1 {
   min-height: 260px;
   border-radius: 24px;
   border: 2px dashed rgba(255, 255, 255, 0.18);
-  background: radial-gradient(circle at top, rgba(86, 176, 255, 0.18), transparent 45%),
+  background: radial-gradient(circle at top, rgba(255, 0, 110, 0.18), transparent 45%),
     rgba(255, 255, 255, 0.04);
   display: grid;
   place-items: center;
-  color: rgba(229, 237, 248, 0.9);
+  color: rgba(240, 230, 255, 0.9);
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
   overflow: hidden;
@@ -76,8 +76,8 @@ h1 {
 }
 
 .drop-zone.drag-active {
-  border-color: rgba(86, 176, 255, 0.95);
-  background: radial-gradient(circle at center, rgba(86, 176, 255, 0.28), transparent 55%);
+  border-color: rgba(255, 0, 110, 0.95);
+  background: radial-gradient(circle at center, rgba(255, 0, 110, 0.28), transparent 55%);
 }
 
 .drop-zone img {

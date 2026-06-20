@@ -1,17 +1,17 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css');
 
 :root {
-  --text: #e5edf8;
+  --text: #f0e6ff;
   --text-h: #ffffff;
-  --bg: #081a3f;
-  --border: rgba(255, 255, 255, 0.12);
+  --bg: #0f0810;
+  --border: rgba(255, 105, 180, 0.12);
   --code-bg: rgba(255, 255, 255, 0.08);
-  --accent: #56b0ff;
-  --accent-bg: rgba(86, 176, 255, 0.15);
-  --accent-border: rgba(86, 176, 255, 0.35);
+  --accent: #ff006e;
+  --accent-bg: rgba(255, 0, 110, 0.15);
+  --accent-border: rgba(255, 0, 110, 0.35);
   --social-bg: rgba(255, 255, 255, 0.08);
   --shadow:
-    rgba(0, 0, 0, 0.22) 0 18px 50px -20px, rgba(255, 255, 255, 0.08) 0 0 0 1px;
+    rgba(0, 0, 0, 0.22) 0 18px 50px -20px, rgba(255, 0, 110, 0.08) 0 0 0 1px;
 
   --sans: 'Pretendard', system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: 'Pretendard', system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -34,17 +34,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #e7f0ff;
+    --text: #f0e6ff;
     --text-h: #ffffff;
-    --bg: #06122c;
-    --border: rgba(255, 255, 255, 0.12);
+    --bg: #0f0810;
+    --border: rgba(255, 105, 180, 0.12);
     --code-bg: rgba(255, 255, 255, 0.08);
-    --accent: #7fc1ff;
-    --accent-bg: rgba(93, 186, 255, 0.14);
-    --accent-border: rgba(93, 186, 255, 0.38);
+    --accent: #ff1493;
+    --accent-bg: rgba(255, 20, 147, 0.14);
+    --accent-border: rgba(255, 20, 147, 0.38);
     --social-bg: rgba(255, 255, 255, 0.08);
     --shadow:
-      rgba(0, 0, 0, 0.28) 0 18px 50px -20px, rgba(255, 255, 255, 0.08) 0 0 0 1px;
+      rgba(0, 0, 0, 0.28) 0 18px 50px -20px, rgba(255, 20, 147, 0.08) 0 0 0 1px;
   }
 }
 
@@ -63,9 +63,9 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle at top left, rgba(86, 176, 255, 0.22), transparent 28%),
-    radial-gradient(circle at 80% 20%, rgba(35, 120, 255, 0.45), transparent 25%),
-    linear-gradient(180deg, #0a1b45 0%, #08142f 40%, #031026 100%);
+  background: radial-gradient(circle at top left, rgba(255, 0, 110, 0.22), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(186, 85, 211, 0.35), transparent 25%),
+    linear-gradient(180deg, #1a0b2e 0%, #0f0810 40%, #050005 100%);
   color: var(--text);
 }
 
